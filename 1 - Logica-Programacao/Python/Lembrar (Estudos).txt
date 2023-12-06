@@ -1,0 +1,10 @@
+-> Toda linguagem de programação tem(precisa) de um interpretador, é ele que vai ser a "ponte" de comunicação entre o ser humano e a máquina.
+-> Python é uma liguagem de alto nível, ou seja, é uma linguagem que se aproxima mais da humana do que da máquina.
+-> # serve para comentários, a parte que vai ser ignorada pelo programa na hora de executar os comandos, sendo apenas anotações/descrições de algo.
+-> Em várias linguagens de programação para finalizar um comando geralmente deve ser usado ; , mas em Python é opcional, o padrão é 'enter' (quebra de linha).
+*Então se você quiser inserir vários códigos na mesma linha use ponto e vírgula.
+-> 'input' só lê texto, se precisar colocar valores diferentes é necessário "converter" a string.
+-> (Veja "Aula 02 em Python") Lembre de que é possível colocar comandos dentro de outros (até mesmo comandos iguais), para que ele sej ou não executado, como exemplo no 'if'.
+-> (pesquisar pass)
+-> Índice em uma banco de dados é iniciado em 0, ex.: a(=item 0), a(=item 1), a(=item 2)
+-> 

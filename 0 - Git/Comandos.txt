@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -m "(nome commit)"
+git remote add origin (link)
+git pull origin master --allow-unrelated-histories
+git pull origin master
+git push --set-uptream origin master
+git push
