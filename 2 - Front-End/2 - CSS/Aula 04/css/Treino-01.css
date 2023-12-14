@@ -1,0 +1,38 @@
+html{
+    background-color: rgb(231, 231, 231);
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav{
+    background-color: rgb(54, 54, 54);
+}
+
+.nav-lista{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 10px 0px;
+    margin: 0px;
+    justify-content:space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titulo-site{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
