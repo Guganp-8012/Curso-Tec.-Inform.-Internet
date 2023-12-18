@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+    background-color: rgb(216, 216, 255);
+}
+
+body{
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* justify-content (horizontal)*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-head{
+    display: flex;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.buscar-barra{
+    display: flex;
+    align-items: center;
+}
+
+.buscar-bkg{
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgba(38, 10, 138, 0.5);
+    border-right: none;
+    padding: 12px 90px 12px 16px;
+    color: rgb(116, 116, 116);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.buscar-btn{
+    background-color: rgb(38, 10, 138);
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px 13px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 200px;
+    background-color: rgb(38, 10, 138);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:white
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.nav-link-mais{
+    text-decoration: none;
+    color:white
+}
+
+.nav-link-mais:hover{
+    
+}
+
+.lista-produtos{
+    display: flex;
+    width: 1200px;
+    height: 1200px;
+    column-gap: 10px;
+    font-weight: bold;
+    row-gap: 10px;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: aqua;
+    align-self: center;
+    padding: 10px;
+}
+
+.card{
+    background-color: green;
+    height: 300px;
+    flex-wrap: wrap;  /* para quebrar linha e não "atravessar a tela" */
+    text-wrap: wrap;
+    border: 2px solid #000000;
+    padding: 0px 25px;
+}
+
+.ilustracao{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+/* tooltip */
+
+footer{
+    justify-content: space-between;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgb(38, 10, 138);
+    color: white;
+}
+
+.temporario{
+    text-align: center;
+}
