@@ -13,20 +13,37 @@ body{
 }
 
 .nav-head{
+    justify-content: space-between;
     display: flex;
     align-items: center;
     padding: 20px 200px;
 }
 
+.acesso-conta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 415px;
+}
+
+.nav-head-link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(116, 116, 116);
+}
+
+.nav-head-link:hover{
+    text-decoration: underline;
+}
+
 .buscar-barra{
     display: flex;
     align-items: center;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .buscar-bkg{
-    border-radius: 5px 0px 0px 5px;
-    border: 1px solid rgba(38, 10, 138, 0.5);
-    border-right: none;
     padding: 12px 90px 12px 16px;
     color: rgb(116, 116, 116);
     font-weight: 500;
@@ -35,14 +52,20 @@ body{
 
 .buscar-btn{
     background-color: rgb(38, 10, 138);
+    cursor: pointer;
+    border: none;
     border-radius: 0px 5px 5px 0px;
     padding: 10px 13px;
+}
+
+.buscar-btn:hover{
+    background-color: rgb(68, 20, 168);
 }
 
 .nav-list{
     display: flex;
     justify-content: space-between;
-    padding: 6px 200px;
+    padding: 10px 200px;
     background-color: rgb(38, 10, 138);
     color: white;
     font-size: 18px;
@@ -54,26 +77,37 @@ body{
     color:white
 }
 
+/* .teste{
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+} */
+
 .nav-link:hover{
     text-decoration: underline;
-    /* border: 1px solid white; */
+    /* border: 1px solid white;
     /* border-radius: 5px; */
+    /* display: inline-block; */
 }
 
-.nav-link-mais{
-    text-decoration: none;
-    color:white
+.banner1{
+    background-color: aqua;
+    width: 1200px;
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.nav-link-mais:hover{
-    text-decoration: underline;
-    height: 100px;
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lista-produtos{
     display: flex;
     width: 1200px;
-    height: 1200px;
     column-gap: 10px;
     font-weight: bold;
     row-gap: 10px;
@@ -107,8 +141,4 @@ footer{
     text-align: center;
     background-color: rgb(38, 10, 138);
     color: white;
-}
-
-.temporario{
-    text-align: center;
 }
