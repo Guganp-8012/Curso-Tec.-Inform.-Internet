@@ -5,27 +5,197 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="imagex/png" href="/Imagens/icon logo.png">
     <title>Jaboticário</title>
+    <link rel="stylesheet" href="Estilos.css">
 </head>
 
 <body>
     <nav>
         <div class="nav-head">
-            <a href="Home-Page.html"><img src="/Imagens/logo jc.png" alt="logo" width="300" height="auto"></a>
-            <span class="barra-pesquisa">O que você procura hoje?</span>
+
+            <div class="container1">
+
+                <a href="Home-Page.html">
+                    <img src="/Imagens/logo jc.png" alt="logo" width="300" height="auto">
+                </a>
+
+                <div class="barra-de-busca">
+
+                    <span class="bkg-barra-de-busca">
+                        O que você procura hoje?
+                    </span>
+
+                    <a href="#">
+                        <button class="btn-barra-de-busca">
+                            <img src="/Imagens/icon-pesquisa.png" width="20" height="auto">
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="acesso-conta">
+
+                <a class="nav-head-link" href="#">
+                    Ajuda
+                </a>
+
+                <a class="nav-head-link" href="#">
+                    Revenda
+                </a>
+
+                <a class="nav-head-link" href="#">
+                    Sacola
+                </a>
+
+                <a class="nav-head-link" href="#">
+                    Faça seu
+                    <br>
+                    Login
+                    <img src="/Imagens/icon-seta-baixo.png" width="15" height="15">
+                </a>
+
+                <img class="acessibilidade" src="/Imagens/icon-acessibilidade.png" width="22" height="auto">
+
+            </div>
+
         </div>
 
-        <div class="nav-list">
-            <a class="nav-link" href="#">PRESENTES</a>
-            <a class="nav-link" href="#">LANÇAMENTOS</a>
-            <a class="nav-link" href="#">PERFUMARIA</a>
-            <a class="nav-link" href="#">MAQUIAGEM</a>
-            <a class="nav-link" href="#">CABELOS</a>
-            <a class="nav-link" href="#">SKINCARE</a>
-            <a class="nav-link" href="#">PETS</a>
-            <a class="nav-link" href="Promocao.html">PROMOÇÃO</a>
-        </div>
+        <ul class="nav-list">
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    PRESENTES
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    OS MAIS VENDIDOS
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    LANÇAMENTOS
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    PERFUMARIA
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    MAQUIAGEM
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    CABELOS
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    SKINCARE
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    PETS
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="Promocao.html">
+                    PROMOÇÃO
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    MARCAS
+                </a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-item-link" href="#">
+                    MAIS [...]
+                </a>
+            </li> <!-- infantil, histórico, etc // [...] é temporario -->
+
+        </ul>
+
     </nav>
-    
+
+    <div class="banner1">
+
+        <div class="element">
+            <h2>
+                As melhores escolhas, pelos melhores preços
+            </h2>
+        </div>
+
+        <div class="banner1-card">
+            <img src="/Imagens/icon-moeda.png" height="100px" width="auto">
+            <h4>
+                Custo-Benefício
+            </h4>
+        </div>
+
+        <div class="banner1-card">
+            <img src="/Imagens/icon-associacao.png" height="100px" width="auto">
+            <h4>
+                Usuários pelo mundo todo
+            </h4>
+        </div>
+
+        <div class="banner1-card">
+            <img src="/Imagens/icon-entrega.png" height="100px" width="auto">
+            <h4>
+                Entrega Rápida
+            </h4>
+        </div>
+
+        <div class="banner1-card">
+            <img src="/Imagens/icon-cartao.png" height="100px" width="auto">
+            <h4>
+                Pagamentos Seguros
+            </h4>
+        </div>
+
+        <div class="banner1-card">
+            <img src="/Imagens/icon-protecao.png" height="100px" width="auto">
+            <h4>
+                Proteção ao Consumidor
+            </h4>
+        </div>
+
+        <div class="element">
+
+            <img src="/Imagens/icon-app.png" height="100px" width="auto">
+
+            <div>
+                <h2 class="text-app">
+                    Adiquira já o aplicativo também!
+                </h2>
+
+                <a href="#">
+                    <button class="btn-app">
+                        APROVEITE
+                    </button>
+                </a>
+                
+            </div>
+
+        </div>
+
+    </div>
+
     <h1>Cupons</h1>        
     <b>
     <p>30% de desconto: <span style="border: 1px dashed #000;">BLACK30</span></p>
@@ -33,8 +203,6 @@
     <p>15 reais de desconto: <span style="border: 1px dashed #000;">AGORA15</span></p>
     </b>
 
-    <a href="Home-Page.html">Voltar</a>
- 
     <footer>
         &copy; Todos os direitos reservados
     </footer>
