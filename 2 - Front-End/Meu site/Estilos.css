@@ -1,6 +1,6 @@
 html{
     height: 100%;
-    background-color: rgb(216, 216, 255);
+    background-color: rgb(216, 225, 255);
 }
 
 body{
@@ -13,16 +13,22 @@ body{
 }
 
 .nav-head{
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
-    padding: 20px 200px;
+    padding: 18px 200px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
 }
 
 .acesso-conta{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     width: 415px;
 }
 
@@ -30,27 +36,32 @@ body{
     text-decoration: none;
     font-weight: bolder;
     color: rgb(116, 116, 116);
+    text-align: left;
 }
 
 .nav-head-link:hover{
     text-decoration: underline;
 }
 
-.buscar-barra{
+.acessibilidade{
+    align-self: center;
+}
+
+.barra-de-busca{
     display: flex;
     align-items: center;
-    border-radius: 5px;
-    background-color: white;
 }
 
-.buscar-bkg{
+.bkg-barra-de-busca{
+    background-color: rgb(253, 250, 242);
     padding: 12px 90px 12px 16px;
-    color: rgb(116, 116, 116);
+    color: rgba(116, 116, 116, 0.8);
     font-weight: 500;
     font-size: 14px;
+    border-radius: 5px 0px 0px 5px;
 }
 
-.buscar-btn{
+.btn-barra-de-busca{
     background-color: rgb(38, 10, 138);
     cursor: pointer;
     border: none;
@@ -58,21 +69,24 @@ body{
     padding: 10px 13px;
 }
 
-.buscar-btn:hover{
+.btn-barra-de-busca:hover{
     background-color: rgb(68, 20, 168);
 }
 
 .nav-list{
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 200px;
+    justify-content: center;
     background-color: rgb(38, 10, 138);
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 
-.nav-link{
+.nav-item-link{
+    padding: 10px 16px;
     text-decoration: none;
     color:white
 }
@@ -83,55 +97,101 @@ body{
     display: none;
 } */
 
-.nav-link:hover{
-    text-decoration: underline;
-    /* border: 1px solid white;
-    /* border-radius: 5px; */
+.nav-item-link:hover{
+    background-color: rgb(212, 127, 0);
+    color: black;
     /* display: inline-block; */
 }
 
+.apresentacao{
+    align-self: center;
+}
+
 .banner1{
-    background-color: aqua;
-    width: 1200px;
+    padding: 20px 0px;
+    width: 1220px;
     align-self: center;
     display: flex;
     justify-content: space-evenly;
+}
+
+.banner1-card{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: 100px;
 }
 
 .element{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: 300px;
 }
 
-.lista-produtos{
-    display: flex;
-    width: 1200px;
-    column-gap: 10px;
+.text-app{
+    margin: 5px;
+}
+
+.btn-app{
+    background-color: rgb(38, 10, 138);
+    color: white;
     font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.btn-app:hover{
+    background-color: rgb(68, 20, 168);
+    color: white;
+}
+
+.produtos{
+    display: flex;
+    width: 1220px;
+    column-gap: 10px;
     row-gap: 10px;
-    text-wrap: wrap;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap; /* para quebrar linha e não "atravessar a tela" */
     background-color: aqua;
     align-self: center;
-    padding: 10px;
+    padding: 20px 0px;
 }
 
-.card{
-    background-color: green;
-    height: 300px;
-    flex-wrap: wrap;  /* para quebrar linha e não "atravessar a tela" */
-    text-wrap: wrap;
-    border: 2px solid #000000;
-    padding: 0px 25px;
+.produtos-card{
+    /* background-color: blueviolet; // debug */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 500;
+    border: 2px solid #000;
+    border-bottom: none;
+    border-radius: 6px;
 }
 
-.ilustracao{
-    width: 120px;
-    height: 120px;
-    text-align: center;
+.btn-compra{
+    width: 250px;
+    background-color: rgb(38, 10, 138);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 15px;
 }
+
+.btn-compra:hover{
+    background-color: rgb(212, 127, 0);
+    color: black;
+}
+
 
 /* tooltip */
 
