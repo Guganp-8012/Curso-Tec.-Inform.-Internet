@@ -133,7 +133,7 @@ body{
     background-color: rgb(225, 97, 0);
     width: 100px;
     height: 100px;
-    color: black;
+    color: white;
     font-weight: bold;
     cursor: pointer;
     border: none;
@@ -145,7 +145,6 @@ body{
 .btn-app:hover{
     background-color: rgb(68, 20, 168);
     border-bottom: 3px solid rgb(225, 97, 0);
-    color: white;
 }
 
 .produtos{
