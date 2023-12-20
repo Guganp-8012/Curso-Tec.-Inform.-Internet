@@ -29,14 +29,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    width: 415px;
+    width: 500px;
 }
 
 .nav-head-link{
     text-decoration: none;
     font-weight: bolder;
     color: rgb(116, 116, 116);
-    text-align: left;
 }
 
 .nav-head-link:hover{
@@ -232,3 +231,13 @@ footer{
     background-color: rgb(38, 10, 138);
     color: white;
 }
+
+/*
+.btn-teste1{
+    opacity: 0;
+}
+
+.btn-teste1:hover .btn-teste3{
+    opacity: 1;
+}
+*/
