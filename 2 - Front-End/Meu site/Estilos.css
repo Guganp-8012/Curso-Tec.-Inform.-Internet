@@ -88,14 +88,8 @@ body{
 .nav-item-link{
     padding: 10px 16px;
     text-decoration: none;
-    color:white
+    color:white;
 }
-
-/* .teste{
-    background-color: yellow;
-    padding: 20px;
-    display: none;
-} */
 
 .nav-item-link:hover{
     background-color: rgb(225, 97, 0);
@@ -120,33 +114,37 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100px;
+    width: 150px;
 }
 
-.element{
+.banner1-text{
     display: flex;
     align-items: center;
-    text-align: center;
-    width: 300px;
+    text-align: left;
+    width: 250px;
+    color: rgb(225, 97, 0);
 }
 
-.text-app{
-    margin: 5px;
+.banner1-app{
+    align-self: center;
 }
 
 .btn-app{
-    background-color: rgb(38, 10, 138);
-    color: white;
+    background-color: rgb(225, 97, 0);
+    width: 100px;
+    height: 100px;
+    color: black;
     font-weight: bold;
     cursor: pointer;
     border: none;
-    border-radius: 6px;
-    padding: 15px;
+    border-radius: 30px;
     font-size: 15px;
+    border-bottom: 3px solid rgb(38, 10, 138);
 }
 
 .btn-app:hover{
     background-color: rgb(68, 20, 168);
+    border-bottom: 3px solid rgb(225, 97, 0);
     color: white;
 }
 
@@ -155,7 +153,7 @@ body{
     width: 1220px;
     column-gap: 10px;
     row-gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap; /* para quebrar linha e não "atravessar a tela" */
     align-self: center;
     padding: 20px 0px;
@@ -220,7 +218,6 @@ body{
     color: white;
     font-weight: bold;
     cursor: pointer;
-    border: none;
     border-radius: 6px;
     padding: 15px;
     font-size: 15px;
@@ -237,5 +234,3 @@ footer{
     background-color: rgb(38, 10, 138);
     color: white;
 }
-
-/* tooltip */
