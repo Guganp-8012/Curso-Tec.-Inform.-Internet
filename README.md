@@ -1,1 +1,1 @@
-# Curso-Tec.-Inform.-Internet
+Repositório temporário (organizar)
